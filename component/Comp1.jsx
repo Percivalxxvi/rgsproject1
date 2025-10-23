@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const Comp1 = ({data1})=>{
   const navigate = useNavigate();
   return (
-    <div className="comp1 w-58 h-fit">
+    <div className="comp1 w-50 h-fit">
       <img src={data1.strMealThumb} alt="" />
       <p className="text-2xl">{data1.strCategory} </p>
       <h2>
