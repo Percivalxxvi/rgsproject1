@@ -36,7 +36,7 @@ console.log(search)
         <button onClick={fetchdata}>Load Product</button>
       </div>
 
-      <div className="div1">
+      <div className="div1 gap-0.5 lg:gap-6">
         {data1 === "no data found" ? (
           <h1>No Results Found</h1>
         ) : (
