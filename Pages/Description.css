@@ -7,10 +7,11 @@
     background-color: bisque;
     gap:20px;
 }
-.desc-img{
+/* .desc-img{ */
     /* height: 90%; */
     /* width: 45%; */
-}
+/* } */
+
 .desc-img img{
     height: 100%;
     width: 100%;
