@@ -13,17 +13,17 @@ const Description = () => {
         <Link to={"/"}> Back</Link>
       </div>
       <div className="desc">
-        <div className="desc-img">
-          <img src={state.strMealThumb} alt="" />
+        <div className="lg:h-100 lg:w-[26%] lg: border-6 border-black bg-black">
+          <img className="h-full w-full object-contain" src={state.strMealThumb} alt="" />
         </div>
         <div className="desc-txt">
           <h1 className="font-bold w-[95%]">Name: {state.strMeal}</h1>
           <h1 className="w-[95%]">{state.strCategory}</h1>
           <h1 className="w-[95%]">{state.strArea}</h1>
           <p>Instructions:{state.strInstructions}</p>
-          <div className="desc-vid">
-            <h1>Watch Tutorial Here:</h1>
-            <a href={state.strYoutube}>Youtube</a>
+          <div className="desc-vid gap-3">
+            <h1>Watch Recipe Tutorial Here:</h1>
+            <a className='text-blue-500 hover:text-blue-800' href={state.strYoutube}>Youtube</a>
           </div>
         </div>
       </div>
